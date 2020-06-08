@@ -1,0 +1,15 @@
+{
+  "name": "mdi",
+  "homepage": "https://github.com/Templarian/MaterialDesign-Webfont",
+  "version": "5.1.45",
+  "_release": "5.1.45",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.1.45",
+    "commit": "c7722cf263df0562dc7c84b9d7d0bc2b61392338"
+  },
+  "_source": "https://github.com/Templarian/MaterialDesign-Webfont.git",
+  "_target": "^5.1.45",
+  "_originalSource": "mdi",
+  "_direct": true
+}

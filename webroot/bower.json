@@ -1,0 +1,23 @@
+{
+  "name": "lappa",
+  "authors": [
+    "Freud Master <fmaguendji@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "datatables.net-dt": "^3.2.2",
+    "datatables.net-bs4": "^3.2.2",
+    "bootstrap": "^4.4.1"
+  }
+}

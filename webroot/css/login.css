@@ -1,0 +1,124 @@
+.login-box,
+.register-box {
+    width: 60%;
+    margin: 7% auto;
+    height: 70%;
+    border-radius: 8px;
+    background: #fff;
+
+}
+h3{
+    color: white;
+}
+.box-footer{
+    background: transparent;
+    color: transparent;
+}
+.login-logo-img{
+    width:254px;
+    height: 254px;
+}
+.login-logo-title{
+    margin-top: 20%;
+}
+
+
+body {
+    background: linear-gradient(-45deg, #4FC3F7, #0093C4, #8ec5fc, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.login-btn{
+    background: #43A047;
+    border-radius: 16px;
+    color: white;
+}
+.control-label{
+}
+.login-input{
+    border-radius: 16px;
+    background: #f0f0f0;
+    width: 90%;
+}
+.login-content{
+    margin-top: 5%;
+}
+@media(min-width: 100px){
+    .login-box,
+    .register-box {
+        background: #fff;
+        width: 95%;
+        margin-top: 20px;
+        height: 30%;
+    }
+    .login-logo-img{
+        width:128px;
+        height: 128px;
+    }
+}
+@media(min-width: 480px){
+    .login-box,
+    .register-box {
+        background: #fff;
+        width: 99%;
+        margin-top: 20px;
+    }
+    .login-logo-img{
+        width:12px;
+        height: 100px;
+    }
+}
+
+
+@media (min-width: 720px) {
+    .login-box,
+    .register-box {
+        background: #fff;
+        width: 90%;
+        height:70%;
+        margin-top: 7%;
+    }
+    h3{
+        color: black;
+    }
+    .login-logo-img{
+        width:254px;
+        height: 254px;
+    }
+    @media (max-height: 480px) {
+        .login-box,
+        .register-box {
+            background: #fff;
+            width: 90%;
+            height:70%;
+            margin-top: 7%;
+        }
+        h3{
+            color: black;
+        }
+        .login-content{
+            width: 30%;
+            display: inline-block;
+        }
+        .login-logo-img{
+            width:128px;
+            height: 128px;
+        }
+    }
+}
+
+
+
